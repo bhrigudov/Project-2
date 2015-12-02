@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="#persinfo">Personal Information</a> |
+	<a href="#edinfo">Education Information</a> |
+	<a href="#submit">Submit</a> <br><br><br>
+
+	<form action="DriverClass" method="post">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h3 id="Persinfo">Personal Information</h3>
+		Email <input type="text" name="email" /> <br><br>
+		Name <input type="text" name="name" /> <br><br>
+		Enrollment Number <input type="text" name="enrolnum" /> <br><br>
+		Category <select name="category">
+					  <option value=""></option>
+					  <option value="General">General</option>
+					  <option value="SC">SC</option>
+					  <option value="ST">ST</option>
+					  <option value="OBC">OBC</option>
+					</select><br><br>
+		Gender <input type="radio" name="gender" value="Male"> Male
+				<input type="radio" name="gender" value="Female"> Female <br><br>
+		Physically Disabled <input type="radio" name="PhyDis" value="Yes"> Yes
+							<input type="radio" name="PhyDis" value="No"> No <br><br>
+		Date of Birth <input type="radio" name="dobToggle" value="Before"> Before
+					  <input type="radio" name="dobToggle" value="On"> On
+					  <input type="radio" name="dobToggle" value="After"> After <br><br>
+					<input type="date" name="dob"> (Format: dd-MM-yyyy)(eg. 08-04-1991) <br><br>
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h3 id="edinfo">Educational Information</h3>
+		PhD Stream <select name="phd">
+			<option value=""></option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="Electronics and Communication">Electronics and Communication</option>
+			<option value="Computational Biology">Computational Biology</option>
+		</select> <br><br>
+		Graduation Degree <select name="Graduation Degree">
+			<option value=""></option>
+			<option value="B.Tech">B.Tech</option>
+		</select> <br><br>
+		Post Graduation Degree <select name="Post Graduation Degree">
+			<option value=""></option>
+			<option value="M.Tech">M.Tech</option>
+		</select> <br><br>
+		Class X Board <select name="xBoard">
+			<option value=""></option>
+			<option value="CBSE">CBSE</option>
+			<option value="ICSE">ICSE</option>
+			<option value="State Board">State Board</option>
+		</select> <br><br>
+		Class XII Board <select name="xiiBoard">
+			<option value=""></option>
+			<option value="CBSE">CBSE</option>
+			<option value="ICSE">ICSE</option>
+			<option value="State Board">State Board</option>
+		</select> <br><br>
+		Department(Graduation) <select name="gDept">
+			<option value=""></option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="Information Technology">Information Technology</option>
+			<option value="Electronics and Communincation">Electronics and Communincation</option>
+		</select> <br><br>
+		Department(Post Graduation) <select name="pgDept">
+			<option value=""></option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="Information Technology">Information Technology</option>
+			<option value="Electronics and Communincation">Electronics and Communincation</option>
+		</select> <br><br>
+		University (Graduation) <input type="text" name="gUni"> <br><br>
+		University (Post Graduation) <input type="text" name="pgUni"> <br><br>
+		State (Graduation from) <select name="gState">
+			<option value= "" ></option>
+			<option value= "Delhi" > Delhi </option>
+			<option value= "Andhra Pradesh" > Andhra Pradesh </option>
+			<option value= "Arunachal Pradesh" > Arunachal Pradesh </option>
+			<option value= "Assam" > Assam </option>
+			<option value= "Bihar" > Bihar </option>
+			<option value= "Chhattisgarh" > Chhattisgarh </option>
+			<option value= "Goa" > Goa </option>
+			<option value= "Gujarat" > Gujarat </option>
+			<option value= "Haryana"  > Haryana </option>
+			<option value= "Himachal Pradesh" > Himachal Pradesh </option>
+			<option value= "Jammu and Kashmir" > Jammu and Kashmir </option>
+			<option value= "Jharkhand" > Jharkhand </option>
+			<option value= "Karnataka" > Karnataka </option>
+			<option value= "Kerela" > Kerela </option>
+			<option value= "Madhya Pradesh" > Madhya Pradesh </option>
+			<option value= "Maharashtra" > Maharashtra </option>
+			<option value= "Manipur" > Manipur </option>
+			<option value= "Meghalaya" > Meghalaya </option>
+			<option value= "Mizoram" > Mizoram </option>
+			<option value= "Nagaland" > Nagaland </option>
+			<option value= "Orissa" > Orissa </option>
+			<option value= "Punjab" > Punjab </option>
+			<option value= "Rajasthan" > Rajasthan </option>
+			<option value= "Sikkim" > Sikkim </option>
+			<option value= "Tamil Nadu" > Tamil Nadu </option>
+			<option value= "Telangana" > Telangana </option>
+			<option value= "Tripura" > Tripura </option>
+			<option value= "Uttar Pradesh" > Uttar Pradesh </option>
+			<option value= "Uttarakhand" > Uttarakhand </option>
+			<option value= "West Bengal" > West Bengal </option>
+			<option value= "Other" > Other </option>
+		</select> <br><br>
+		State (Post Graduation from) <select name="pgState">
+			<option value= "" ></option>
+			<option value= "Delhi" > Delhi </option>
+			<option value= "Andhra Pradesh" > Andhra Pradesh </option>
+			<option value= "Arunachal Pradesh" > Arunachal Pradesh </option>
+			<option value= "Assam" > Assam </option>
+			<option value= "Bihar" > Bihar </option>
+			<option value= "Chhattisgarh" > Chhattisgarh </option>
+			<option value= "Goa" > Goa </option>
+			<option value= "Gujarat" > Gujarat </option>
+			<option value= "Haryana"  > Haryana </option>
+			<option value= "Himachal Pradesh" > Himachal Pradesh </option>
+			<option value= "Jammu and Kashmir" > Jammu and Kashmir </option>
+			<option value= "Jharkhand" > Jharkhand </option>
+			<option value= "Karnataka" > Karnataka </option>
+			<option value= "Kerela" > Kerela </option>
+			<option value= "Madhya Pradesh" > Madhya Pradesh </option>
+			<option value= "Maharashtra" > Maharashtra </option>
+			<option value= "Manipur" > Manipur </option>
+			<option value= "Meghalaya" > Meghalaya </option>
+			<option value= "Mizoram" > Mizoram </option>
+			<option value= "Nagaland" > Nagaland </option>
+			<option value= "Orissa" > Orissa </option>
+			<option value= "Punjab" > Punjab </option>
+			<option value= "Rajasthan" > Rajasthan </option>
+			<option value= "Sikkim" > Sikkim </option>
+			<option value= "Tamil Nadu" > Tamil Nadu </option>
+			<option value= "Telangana" > Telangana </option>
+			<option value= "Tripura" > Tripura </option>
+			<option value= "Uttar Pradesh" > Uttar Pradesh </option>
+			<option value= "Uttarakhand" > Uttarakhand </option>
+			<option value= "West Bengal" > West Bengal </option>
+			<option value= "Other" > Other </option>
+		</select> <br><br>
+		Calss X Board Percentage <input type="checkbox" name="xBoardGT"> Greater Than
+								<input type="checkbox" name="xBoardE"> Equals
+								<input type="checkbox" name="xBoardLT"> Lesser Than
+								<input type="text" name="xBoardPer">% <br><br>
+		Calss XII Board Percentage <input type="checkbox" name="xiiBoardGT"> Greater Than
+								<input type="checkbox" name="xiiBoardE"> Equals
+								<input type="checkbox" name="xiiBoardLT"> Lesser Than
+								<input type="text" name="xiiBoardPer">% <br><br>
+		Graduation Marks Percentage <input type="checkbox" name="gMarksPerGT"> Greater Than
+								<input type="checkbox" name="gMarksPerE"> Equals
+								<input type="checkbox" name="gMarksPerLT"> Lesser Than
+								<input type="text" name="gMarksPer">% <br><br>
+		Post Graduation Marks Percentage <input type="checkbox" name="pgMarksPerGT"> Greater Than
+								<input type="checkbox" name="pgMarksPerE"> Equals
+								<input type="checkbox" name="pgMarksPerLT"> Lesser Than
+								<input type="text" name="pgMarksPer">% <br><br>
+		GATE Score <input type="checkbox" name="gateScoreGT"> Greater Than
+								<input type="checkbox" name="gateScoreE"> Equals
+								<input type="checkbox" name="gateScoreLT"> Lesser Than
+								<input type="text" name="gateScorePer">% <br><br>
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		<h3 id="submit">Timeline Information</h3>
+		
+
+		Application Dated From <input type="date" name="applicationDatedFrom"> (Format: dd/MM/yyyy)(eg. 21/03/1999) <br><br>
+		Application Dated Upto <input type="date" name="applicationDatedUpto"> (Format: dd/MM/yyyy)(eg. 21/03/1999) <br><br>
+
+
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" value="Show Filtered Result">
+	</form>
+</body>
+</html>

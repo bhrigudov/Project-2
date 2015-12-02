@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tab1.css">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+  
+</head>
+<body>
+	<form action="Tab2" method="post" >
+		<h1>Schooling Information</h1>
+
+		<table style="width:50%">
+			<tr>
+				<td>
+				Xth Board*
+				</td>
+				<td>  
+				<input type="text" name="x" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Xth Marks(%)*
+				</td>
+				<td>
+				<input type="number" name="xp" max="100" min="0" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Year Of Passing Xth*
+				</td>
+				<td>
+					<select name="yopx">
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				XIIth Board*
+				</td>
+				<td>
+				<input type="text" name="xii" required/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+				XIIth Marks(%)*
+				</td>
+				<td>  
+				<input type="number" name="xiip" max="100" min="0" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Year Of Passing XIIth*
+				</td>
+				<td>
+					<select name="yopxii">
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+					</select>
+				</td>
+			</tr>
+			
+		</table >
+		<h1>Graduation Information</h1>
+		<table style="width:50%">
+			<tr>
+				<td>
+				Degree*
+				</td>
+				<td>  
+				<input type="text" name="degree" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Department/Discipline*
+				</td>
+				<td>
+				<input type="text" name="department" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Name of College*
+				</td>
+				<td>  
+				<input type="text" name="college" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Name of University*
+				</td>
+				<td>
+				<input type="text" name="university" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				City*
+				</td>
+				<td>  
+				<input type="text" name="city" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					State*
+				</td>
+				<td>
+					<select name="state">
+						<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option><option value="Andhra Pradesh">Andhra Pradesh</option><option value="Arunachal Pradesh">Arunachal Pradesh</option><option value="Assam">Assam</option><option value="Bihar">Bihar</option><option value="Chandigarh">Chandigarh</option><option value="Chhatisgarh">Chhatisgarh</option><option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option><option value="Daman and Diu">Daman and Diu</option><option value="Delhi">Delhi</option><option value="Goa">Goa</option><option value="Gujarat">Gujarat</option><option value="Haryana">Haryana</option><option value="Himachal Pradesh">Himachal Pradesh</option><option value="Jammu and Kashmir">Jammu and Kashmir</option><option value="Jharkhand">Jharkhand</option><option value="Karnataka">Karnataka</option><option value="Kerala">Kerala</option><option value="Lakshadweep">Lakshadweep</option><option value="Madhya Pradesh">Madhya Pradesh</option><option value="Maharashtra">Maharashtra</option><option value="Manipur">Manipur</option><option value="Meghalaya">Meghalaya</option><option value="Mizoram">Mizoram</option><option value="Nagaland">Nagaland</option><option value="Orissa">Orissa</option><option value="Pondicherry">Pondicherry</option><option value="Punjab">Punjab</option><option value="Rajasthan">Rajasthan</option><option value="Sikkim">Sikkim</option><option value="Tamil Nadu">Tamil Nadu</option><option value="Tripura">Tripura</option><option value="Uttaranchal">Uttaranchal</option><option value="Uttar Pradesh">Uttar Pradesh</option><option value="West Bengal">West Bengal</option><option value="Other">Other</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Year Of Graduation*
+				</td>
+				<td>
+					<select name="yog">
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				CGPA or Marks*
+				</td>
+				<td>
+				<input type = "radio"  value = "CGPA" name = "cgpa" required/> CGPA
+				<br>
+				<input type="number" name="cgpa1" value="0" max="10" min="0" required/> / <select name="cgpa2">
+					<option value="4">4</option>
+					<option value="10">10</option>
+					</select>
+				<br>
+				<input type = "radio"  value = "Marks" name = "cgpa" required/> Marks
+				<br>
+				<input type="number" name="marks" value="0" max="100" min="0" required/>
+				<br>
+				</td>
+			</tr>
+			
+		</table>
+		<h1>Achievements, CV and Statement of Purpose</h1>
+		<table style="width:50%">
+			<tr>
+				<td>
+				Achievements (Other information like ranks, medals etc.)
+				</td>
+				<td>  
+				<input type="text" name="achievements"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				CV/Resume*
+				</td>
+				<td>  
+				<input type="file" name="CV" value="Choose File" required/>
+				<br>
+				<font color="red">Upload a pdf file of max 10 MB</font>
+				<br>
+				<input type="file" name="Resume" value="Choose File"/ required>
+				<br>
+				<font color="red">Upload a pdf file of max 10 MB</font>
+				</td>
+			</tr>
+		</table>
+		<table style="width:50%">
+			<tr>
+				<td>
+					<input type="submit" name="tab2_com" value="Next" />
+				</td>
+			</tr>
+		</td>
+		</table>
+	
+	</form>
+</body>
+</html>
+
+
+<!-- Delhi
+Andhra Pradesh
+Arunachal Pradesh
+Assam
+Bihar
+Chhattisgarh
+Goa
+Gujarat
+Haryana
+Himachal Pradesh
+Jammu and Kashmir
+Jharkhand
+Karnataka
+Kerela
+Madhya Pradesh
+Maharashtra
+Manipur
+Meghalaya
+Mizoram
+Nagaland
+Orissa
+Punjab
+Rajasthan
+Sikkim
+Tamil Nadu
+Telangana
+Tripura
+Uttar Pradesh
+Uttarakhand
+West Bengal
+Other -->

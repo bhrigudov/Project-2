@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+</head>
+<body>
+	<form action="servlet/Address" method="post">
+	<h1>Personal Information</h1>
+	
+	<table style="width:50%">
+	<tr>
+		<td>
+		Email*
+		</td>
+		<td>  
+		<input type="text" name="email" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Name*
+		</td>
+		<td>
+		<input type="text" name="name" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Enrollment Number*
+		</td>
+		<td>
+		<input type="text" name="enroll_no" required/> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Address of Correspondence*
+		</td>
+		<td>  
+		<input type="text" name="aoc" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Mobile*
+		</td>
+		<td>
+		<input type="text" name="mobile" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Gender*
+		</td>
+		<td>
+		<input type = "radio"  value = "male" name = "gender" required/> Male 
+		<br>
+		<input type = "radio"  value = "female" name = "gender" required/> Female
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Category*
+		</td>
+		<td>
+		<input type = "radio"  value = "general" name = "category" required/> General 
+		<br>
+		<input type = "radio"  value = "obc" name = "category" required/> OBC
+		<br>
+		<input type = "radio"  value = "sc" name = "category" required/> SC
+		<br> 
+		<input type = "radio"  value = "st" name = "category" required/> ST
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Physically Disabled*
+		</td>
+		<td>
+		<input type = "radio"  value = "yes" name = "disabled" required/> Yes 
+		<br>
+		<input type = "radio"  value = "no" name = "disabled" required/> No
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Date of Birth*
+		</td>
+		<td>
+		<input type="text" id="datepicker" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Children/War Widows of Defence Personnel killed/Disabled in Action*
+		</td>
+		<td>
+		<input type = "radio"  value = "yes" name = "defense" required/> Yes 
+		<br>
+		<input type = "radio"  value = "no" name = "defense" required/> No
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Fathers Name*
+		</td>
+		<td>  
+		<input type="text" name="father" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Nationality*
+		</td>
+		<td>  
+		<input type="text" name="nationality" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Permanent Address*
+		</td>
+		<td>  
+		<input type="text" name="padd" required/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Pin Code
+		</td>
+		<td>  
+		<input type="text" name="pcode"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		PhD Stream*
+		</td>
+		<td>
+		<input type = "radio"  value = "cs" name = "phd" required/> Computer Science 
+		<br>
+		<input type = "radio"  value = "ece" name = "phd" required/> Electronics and Communications
+		<br>
+		<input type = "radio"  value = "cb" name = "phd" required/> Computational Biology
+		<br>
+		</td>
+	</tr>
+	</table>
+	<input type="submit" value="Next"/>
+	</form>
+</body>
+</html>
